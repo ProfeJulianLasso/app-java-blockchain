@@ -15,6 +15,10 @@ public class DataBlock {
         this.to = to;
     }
 
+    public Integer getNonce() {
+        return nonce;
+    }
+
     @Override
     public String toString() {
         return "{" +

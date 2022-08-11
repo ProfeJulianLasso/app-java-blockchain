@@ -8,9 +8,9 @@ public class App
     public static void main( String[] args )
     {
         CreateBlock blockchain = new CreateBlock(
-                "000001d8503c0c5fa7be8801f22f53d3e841bd2883f1efd11ca1205032d423da",
-                "julian.lasso@sofka.com.co",
-                "raul.alzate@sofka.com.co",
+                "JulianEscobar;AlexanderReyes;CamiloCastañeda",
+                "Luisa Avila",
+                "Juan Daniel",
                 null
         );
         String hash = blockchain.generateBlock(5);

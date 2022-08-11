@@ -19,6 +19,10 @@ public class CreateBlock {
         this.block = block;
     }
 
+    public DataBlock getBlock() {
+        return block;
+    }
+
     public String generateBlock(Integer level) {
         Pattern pattern = Pattern.compile("^(0){" + level + "}");
         String sha256hex = DigestUtils.sha256Hex(block.toString());
